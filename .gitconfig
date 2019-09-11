@@ -8,6 +8,9 @@
     pu = push
     st = status
 
+[core]
+    editor = emacs
+
 [user]
     email = hallstrom.claes@gmail.com
     name = Claes Hallström
