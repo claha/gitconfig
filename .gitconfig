@@ -1,3 +1,13 @@
+[alias]
+    br = branch
+    ci = commit
+    co = checkout
+    df = diff
+    dt = difftool
+    lg = log --abbrev-commit --decorate --oneline --graph
+    pu = push
+    st = status
+
 [user]
     email = hallstrom.claes@gmail.com
     name = Claes Hallström
