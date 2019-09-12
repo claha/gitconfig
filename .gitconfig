@@ -4,7 +4,7 @@
     co = checkout
     df = diff
     dt = difftool
-    lg = log --abbrev-commit --decorate --oneline --graph
+    lg = log --graph --abbrev-commit --date=relative --pretty=format:'%C(auto)%h%d%C(reset) %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
     pu = push origin HEAD
     puf = push --force origin HEAD
     puu = push --set-upstream origin HEAD
