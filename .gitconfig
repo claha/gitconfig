@@ -5,7 +5,9 @@
     df = diff
     dt = difftool
     lg = log --abbrev-commit --decorate --oneline --graph
-    pu = push
+    pu = push origin HEAD
+    puf = push --force origin HEAD
+    puu = push --set-upstream origin HEAD
     st = status
 
 [core]
