@@ -8,6 +8,7 @@
     pu = push origin HEAD
     puf = push --force origin HEAD
     puu = push --set-upstream origin HEAD
+    sm = submodule
     st = status
 
 [core]
