@@ -3,6 +3,7 @@
     cfg = config
     ci = commit
     co = checkout
+    cp = cherry-pick
     df = diff
     dfn = diff --name-only
     dt = difftool
