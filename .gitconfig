@@ -24,6 +24,9 @@
 [core]
     editor = emacs
 
+[fetch]
+    prune = true
+
 [user]
     email = hallstrom.claes@gmail.com
     name = Claes Hallström
