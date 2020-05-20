@@ -4,6 +4,7 @@
     ci = commit
     co = checkout
     df = diff
+    dfn = diff --name-only
     dt = difftool
     lg = log --graph --abbrev-commit --date=relative --pretty=format:'%C(auto)%h%d%C(reset) %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
     pu = push origin HEAD
