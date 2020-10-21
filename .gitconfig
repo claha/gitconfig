@@ -31,6 +31,9 @@
 [fetch]
     prune = true
 
+[rebase]
+    autosquash = true
+
 [user]
     email = hallstrom.claes@gmail.com
     name = Claes Hallström
