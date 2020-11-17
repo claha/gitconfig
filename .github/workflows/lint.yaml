@@ -26,9 +26,4 @@ jobs:
           gitlint --version
           gitlint --ignore body-is-missing -c title-max-length.line-length=50
 
-      - run: |
-          pip3 install yamllint
-          yamllint --version
-          yamllint .
-
       - run: if git ls-files | xargs file | grep CRLF; then exit 1; fi
