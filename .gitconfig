@@ -5,7 +5,7 @@
     co = checkout
     cp = cherry-pick
     df = diff
-    dfh = diff HEAD^ 
+    dfh = diff HEAD^
     dfn = diff --name-only
     dfnh = diff HEAD^ --name-only
     dt = difftool
@@ -33,7 +33,7 @@
     prune = true
 
 [pull]
-	rebase = false
+    rebase = false
 
 [rebase]
     autosquash = true
